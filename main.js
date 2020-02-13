@@ -201,19 +201,20 @@ chal13 = (str) => {
     let x = 1
         y = 1
         z = ''
-        while (num > x + y) {
-            z = x + y
-            x = z + y 
-            console.log(y)
-            console.log(z)
-            if (num > x) console.log(x)
-            y = x + z 
-        
-        
-        
+        while (num > y +x) {
+                        console.log(x)
+                        console.log(y)
+            x = y + x
+           
+            y = x + y
+            if (num < x + y ) console.log(x)
+            if (num < x + y && num > y ) console.log(y)
+            
+
+            
         }
         console.log(num)
  }
 
- chal16 (200)
+ chal16 ()
 
